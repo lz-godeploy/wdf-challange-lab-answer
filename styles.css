@@ -1,0 +1,248 @@
+body { 
+    background-color: #105541;
+    padding:0;
+    margin:0;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+/*------------------------------------------------
+Navbar
+------------------------------------------------*/
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cascadia Code', sans-serif;
+    background-color: #ffffff;
+}
+
+.my-logo a {
+    text-decoration: none;
+    
+}
+
+.my-logo a h1{
+    color: #105541;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.my-logo a {
+    text-decoration: none;
+}
+
+.my-logo a h1{
+    color: #105541;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.navbar-links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar-links li {
+    list-style: none;
+    float: left;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar-links li a {
+    display: block;
+    color: #105541;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.navbar-links li a:hover {
+    background-color: #e0e2e2;
+}
+
+
+
+/*------------------------------------------------
+Home
+------------------------------------------------*/
+.home-hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+    align-items: center;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Cascadia Code', sans-serif;
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 20;
+}
+.home-hero h1 {
+    color: #ffffff;
+    font-family: 'Cascadia Code', sans-serif;
+    font-size: 80;
+    font-weight: 100;
+    margin: 0;
+}
+
+.home-hero p{
+    color: #ffffff;
+    font-family: 'Cascadia Code', sans-serif;
+    font-size: 20;
+}
+
+.home-hero img {
+    width: 400px;
+    border-radius: 50%;
+    padding: 90px 10px;
+    padding-left: 100px;
+}
+
+.home-about {
+    background: #ffffff;
+    min-width: 0;
+    min-height: 0;
+}
+
+.home-about img {
+    width: 200px;
+}
+
+.home-about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20 300;
+    padding-bottom: 75;
+}
+
+.home-about h1 {
+    padding: 25px 0;
+    color: #105541;
+    font-weight: 500;
+}
+
+.home-footer {
+    background-color: #105541;
+    bottom: 0;
+}
+
+.home-footer p {
+    padding: 15 0;
+    margin:  0 0;
+    font-size: 15;
+}
+
+
+
+/*------------------------------------------------
+Experince
+------------------------------------------------*/
+
+.jobs {
+    /*This creates a wrapper*/
+    /*----------------------*/
+    margin-right: auto;
+    margin-left:  auto; 
+    max-width: 1500px;
+    padding-right: 10px;
+    padding-left:  10px; 
+    /*----------------------*/
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+    align-items: center;
+}
+
+.jobs h1 { 
+    font-size: 25;
+    margin: 0;
+    padding: 0;
+}
+.jobs p {
+    font-size: 15px;
+    font-family: 'Cascadia Code', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+    color:#32c99e;
+}
+
+.jobs li{
+    font-size: 15;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+.job-item {
+    padding-bottom: 120px;
+}
+
+
+
+/*------------------------------------------------
+Experince
+------------------------------------------------*/
+.contact-me{
+    background: #105541;
+    min-width: 0;
+    min-height: 0;;
+}
+
+.contact-me img {
+    width: 200px;
+    padding-top: 35px;
+}
+
+.contact-me-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20 300;
+    padding-bottom: 300px;
+}
+
+.contact-me img:hover{
+    padding: auto;
+    width: 210px;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.contact-me h1 { 
+    font-size: 50px;
+    padding-top: 150;
+    font-weight: 100;
+}
+
+.contact-me p {
+    font-size: 15px;
+    font-family: 'Cascadia Code', sans-serif;
+}
